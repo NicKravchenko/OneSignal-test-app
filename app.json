@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "onesignal-testapp",
+    "slug": "onesignal-testapp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
