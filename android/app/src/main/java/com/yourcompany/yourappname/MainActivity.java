@@ -1,4 +1,4 @@
-package com.onesignaltestapp;
+package com.yourcompany.yourappname;
 
 import android.os.Build;
 import android.os.Bundle;

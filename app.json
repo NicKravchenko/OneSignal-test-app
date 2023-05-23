@@ -2,9 +2,23 @@
   "expo": {
     "name": "onesignal-testapp",
     "slug": "onesignal-testapp",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    },
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "plugins": [
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    }
   }
 }
